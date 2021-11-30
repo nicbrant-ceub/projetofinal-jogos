@@ -46,6 +46,9 @@ public class Player : MonoBehaviour
         if (other.transform.tag == "Death")
         {
             SceneManager.LoadScene("Game Over");
+        }else if (other.transform.tag == "Finish")
+        {
+            SceneManager.LoadScene("Winner");
         }
     }
     void OnCollisionEnter(Collision collision){
