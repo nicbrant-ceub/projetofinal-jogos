@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collect
   - Gun
+  - Death
   layers:
   - Default
   - TransparentFX
